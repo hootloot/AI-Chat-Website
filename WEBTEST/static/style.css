@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    font-family: "Poppins", sans-serif;
+}
+
+.landing {
+    min-height: 200vh;
+    background-size: cover;
+    padding: 0rem 5rem;
+    background-color: rgb(206, 206, 206)
+}
+
+.space {
+    position: absolute;
+    top: 59%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.card {
+    transform-style: preserve-3d;
+    min-height: 50vh;
+    width: 35rem;
+    border-radius: 30px;
+    padding: 0rem 5rem;
+    background: white;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2);
+}
+
+.input {
+    background-color: black;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.output h1 {
+    padding: 0rem 3rem;
+    font-size: 1.3rem;
+    color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+}
+
+.OP {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.OP h1 {
+    font-size: 3.5rem;
+    color: black;
+}
+
+.links {
+    position: absolute;
+    top: 95%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.links h1 {
+    font-size: 1.5rem;
+    color: black;
+}
+
+.sub {
+    position: absolute;
+    top: 17%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.sub h6 {
+    font-size: 1.3rem;
+    color: black;
+}
+
